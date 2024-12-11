@@ -67,5 +67,6 @@ This project simulates an investment account accruing monthly interest based on 
 ### Compilation
 Compile the program using a C++ compiler:
 ```bash
-g++ investment_account.cpp -o investment_account
+g++ -std=c++98 -g -Wall project1.cpp -o project1.exe
+./project1.exe
 
